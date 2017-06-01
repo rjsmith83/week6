@@ -13,25 +13,25 @@ app.get('/', function(req,res){
 
 //Red Page
 app.get('/red', function(req,res){
-	res.send ("<h1 style='color:red'>RED</h1>");
+	res.send ("<h1 style='color:red'>RED PAGE</h1>");
 
 });
 
 //Yellow Page
 app.get('/yellow', function(req,res){
-	res.send ("<h1 style='color:yellow'>YELLOW</h1>");
+	res.send ("<h1 style='color:yellow'>YELLOW PAGE</h1>");
 
 });
 
 //Blue Page
 app.get('/blue', function(req,res){
-	res.send ("<h1 style='color:blue'>BLUE</h1>");
+	res.send ("<h1 style='color:blue'>BLUE PAGE</h1>");
 
 });
 
 //Green Page
 app.get('/green', function(req,res){
-	res.send ("<h1 style='color:green'>GREEN</h1>");
+	res.send ("<h1 style='color:green'>GREEN PAGE</h1>");
 
 });
 
